@@ -1,0 +1,45 @@
+# Python 3.8
+
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+# PyTorch
+torch==1.13.0
+torchvision==0.14.0
+torchaudio==0.13.0
+triton==2.0.0
+
+# Mamba dependencies
+packaging
+causal-conv1d==1.0.0
+mamba-ssm==1.0.1
+
+# Model utilities
+timm==0.4.12
+yacs
+termcolor
+submitit
+tensorboardX
+
+# Testing and encoding
+pytest
+chardet
+
+# Scientific computing and evaluation
+scikit-learn
+matplotlib
+thop
+h5py
+SimpleITK
+scikit-image
+medpy
+
+# Additional runtime dependencies
+numpy<2
+pandas
+Pillow
+tqdm
+prettytable
+opencv-python
+einops
+pytorch-wavelets
+PyWavelets
